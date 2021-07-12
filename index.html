@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="h3 text-center text-success">Welcome <br> Here you can exchange your money</h1>
+        <form class="form d-flex justify-content-evenly align-items-center flex-wrap border border-1 border-radius border-secondary py-3">
+            <input type="text" class="input-money w-25 text-dark mx-2 " placeholder="Enter the amount">
+            <select name="currency-result" id="currency-result" class=" select form-select w-25">
+                <option value="10637.30"> Usd</option>
+                <option value="142.95"> Rubl</option>
+                <option value="12616.04"> Euro</option>
+            </select>
+
+            <button type="submit" class="btn btn-outline-success border border-2 border-success w-25">Exchange</button>
+        </form>
+
+        <div class="mx-auto border border-1 border-secondary my-4">
+            <h2 class="h4 currency-result text-success ps-3">Your money is: </h2>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
